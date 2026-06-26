@@ -1,0 +1,119 @@
+body{
+
+    margin:0;
+
+    font-family:Arial,sans-serif;
+
+    background:#f5f7fb;
+
+}
+
+.navbar{
+
+    background:#1e293b;
+
+    color:white;
+
+    text-align:center;
+
+    padding:18px;
+
+}
+
+.container{
+
+    width:90%;
+
+    margin:auto;
+
+    padding:20px;
+
+}
+
+.searchBox{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-bottom:25px;
+
+}
+
+.searchBox input{
+
+    flex:1;
+
+    padding:12px;
+
+    font-size:16px;
+
+    border-radius:8px;
+
+    border:1px solid gray;
+
+}
+
+.searchBox button{
+
+    width:150px;
+
+    border:none;
+
+    background:#2563eb;
+
+    color:white;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-weight:bold;
+
+}
+
+.profileCard,
+.graphCard,
+.topicCard,
+.recommendCard,
+.card{
+
+    background:white;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    border-radius:12px;
+
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+
+}
+
+.bottom{
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+.card{
+
+    flex:1;
+
+}
+
+canvas{
+
+    max-height:400px;
+
+}
+
+#contestStats p{
+
+    margin:10px 0;
+
+    font-size:16px;
+
+}

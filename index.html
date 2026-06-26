@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>CP Analytics Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <h1>CP Analytics Dashboard</h1>
+
+    </div>
+
+    <div class="container">
+
+        <div class="searchBox">
+
+            <input
+                type="text"
+                id="handle"
+                placeholder="Enter Codeforces Handle"
+            >
+
+            <button id="analyzeBtn">
+                Analyze
+            </button>
+
+        </div>
+
+        <div class="profileCard">
+
+            <h2>Profile</h2>
+
+            <div id="profile">
+
+                Enter a handle to begin.
+
+            </div>
+
+        </div>
+
+        <div class="graphCard">
+
+            <h2>Rating Graph</h2>
+
+            <canvas id="ratingChart"></canvas>
+
+        </div>
+
+        <div class="bottom">
+
+            <div class="card">
+
+                <h2>Contest Analytics</h2>
+
+                <div id="contestStats"></div>
+
+            </div>
+
+            <div class="card">
+
+                <h2>Strong Topics</h2>
+
+                <div id="strongTopics"></div>
+
+            </div>
+
+            <div class="card">
+
+                <h2>Weak Topics</h2>
+
+                <div id="weakTopics"></div>
+
+            </div>
+
+        </div>
+
+        <div class="topicCard">
+
+            <h2>Topic Statistics</h2>
+
+            <canvas id="topicChart"></canvas>
+
+        </div>
+
+        <div class="recommendCard">
+
+            <h2>Recommended Problems</h2>
+
+            <div id="recommendations">
+
+            </div>
+
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
