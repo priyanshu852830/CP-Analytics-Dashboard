@@ -19,3 +19,7 @@ A Competitive Programming Analytics Dashboard built using HTML, CSS and JavaScri
 * JavaScript
 * Chart.js
 * Codeforces API
+
+## Preview
+
+![Dashboard](CP-Dashboard.jpeg)
