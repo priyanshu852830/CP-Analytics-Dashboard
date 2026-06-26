@@ -2,6 +2,10 @@
 
 A Competitive Programming Analytics Dashboard built using HTML, CSS and JavaScript.
 
+## Live Demo
+
+🔗 https://priyanshu852830.github.io/CP-Analytics-Dashboard/
+
 ## Features
 
 * Analyze any Codeforces handle
